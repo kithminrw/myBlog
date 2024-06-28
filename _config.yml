@@ -1,20 +1,20 @@
 # Site Settings
 lang: en
-title: Bulma Clean Theme
-tagline: Bulma Clean Theme
-email: your-email@domain.com
+# title: Bulma Clean Theme
+# tagline: Bulma Clean Theme
+email: kithminrw@gmail.com
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/bulma-clean-theme"
-url: "https://www.csrhymes.com"
+  Kithmin's Personal Blog
+baseurl: ""
+url: "https://www.kithminrw.com"
+image_dir: "/img"
 permalink: pretty
-#favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
-#hide_share_buttons: true
-#theme_color: '#eeeeee'
-#fixed_navbar: top
+favicon: ./favicon.png
+theme_color: '#02343F'
+fixed_navbar: top
+timezone: America/Los_Angeles
 #direction: one of <ltr, rtl, auto>, default: ltr
-force_theme: light
+force_theme: dark
 
 paginate: 5
 paginate_path: "/blog/page:num"
@@ -24,7 +24,7 @@ disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   # shortname: my_disqus_shortname
-  shortname: csrhymes
+  shortname: kithminrw
 
 
 plugins:
@@ -54,7 +54,6 @@ sass:
     # - node_modules
 
 #google_analytics: UA-code-here
-cookie_policy: /cookie-policy/
 
 defaults:
   -
@@ -68,9 +67,8 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "Kithmin Randula"
       layout: post
-      image: https://via.placeholder.com/1200x800
       show_sidebar: true
 
 markdown: kramdown
@@ -82,5 +80,4 @@ collections:
   products: 
     output: true
     layout: product
-    image: https://via.placeholder.com/800x600
     show_sidebar: false

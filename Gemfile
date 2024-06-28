@@ -11,3 +11,6 @@ group :jekyll_plugins do
     gem 'jekyll-redirect-from'
 end
 
+gem "webrick", "~> 1.8"
+gem 'tzinfo', '~> 2.0'
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
